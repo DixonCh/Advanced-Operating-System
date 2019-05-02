@@ -1,0 +1,6 @@
+c:\users\deepika\documents\visual studio 2017\Projects\Scheduling\Scheduling\bin\Debug\Scheduling.exe.config
+c:\users\deepika\documents\visual studio 2017\Projects\Scheduling\Scheduling\bin\Debug\Scheduling.exe
+c:\users\deepika\documents\visual studio 2017\Projects\Scheduling\Scheduling\bin\Debug\Scheduling.pdb
+c:\users\deepika\documents\visual studio 2017\Projects\Scheduling\Scheduling\obj\Debug\Scheduling.csprojResolveAssemblyReference.cache
+c:\users\deepika\documents\visual studio 2017\Projects\Scheduling\Scheduling\obj\Debug\Scheduling.exe
+c:\users\deepika\documents\visual studio 2017\Projects\Scheduling\Scheduling\obj\Debug\Scheduling.pdb
