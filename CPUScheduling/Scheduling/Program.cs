@@ -27,6 +27,7 @@ namespace CPUSchedulingAOS
                 Bu[i] = Convert.ToInt32(Console.ReadLine());
             }
         }
+        //First Come First Serve
         public void Fcfs()
         {
             int i;
