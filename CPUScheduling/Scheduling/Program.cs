@@ -72,7 +72,8 @@ namespace CPUSchedulingAOS
                 Console.WriteLine("\nBurst time for process p" + i + "=");
                 Console.WriteLine(B[i]);
             }
-            for (i = n; i >= 1; i--) // sort the process according to the increasing order of burst time i.e bubble sort
+            // Sort the process according to the increasing order of burst time i.e bubble sort
+            for (i = n; i >= 1; i--) 
             {
                 for (j = 1; j <= n; j++)
                 {
