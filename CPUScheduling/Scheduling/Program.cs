@@ -122,7 +122,7 @@ namespace CPUSchedulingAOS
                 P[i] = Convert.ToInt32(Console.ReadLine());
                 if (max < P[i])
                     max = P[i];
-
+                
             }
             j = 1;
             while (j <= max) //calculate the waiting time for each process
@@ -151,7 +151,7 @@ namespace CPUSchedulingAOS
                     }
                 }
             }
-            //calculating average weighting Time
+            //Calculating average waiting Time
             for (i = 1; i <= n; i++)
             {
                 Twt = Twt + Wt[i];
