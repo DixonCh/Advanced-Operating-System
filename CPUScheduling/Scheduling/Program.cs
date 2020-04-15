@@ -162,7 +162,9 @@ namespace CPUSchedulingAOS
             Console.WriteLine("Average Weighting Time=" + Awt);
             Console.WriteLine("Total Turn Around Time=" + tat);
             Console.WriteLine("Average Turn Around Time=" + atat);
-        } //Priority Algorithm
+        } 
+        
+        //Implementation of Priority Algorithm
         public void SjfP()
         {
             int i;
