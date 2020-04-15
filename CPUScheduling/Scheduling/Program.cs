@@ -198,7 +198,7 @@ namespace CPUSchedulingAOS
             while (complete != totaltimeForexexecution)
             {
 
-                // Find process with minimum remaining time among the processes that arrives till the current time
+                // Find the process with minimum remaining time among the processes that arrives till the current time
                 for (int j = 1; j <= n; j++)
                 {
                     if ((art[j] <= t) &&
