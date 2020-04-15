@@ -387,16 +387,13 @@ namespace CPUSchedulingAOS
                 {
                     if (rem_bt[i] == 0)
                         continue;
-                    // If burst time of a process 
-                    // is greater than 0 then only 
-                    // need to process further 
-                    // to change the quamtum size according to weight of process;
+                    // If burst time of a process is greater than 0 then only need to process further 
+                    // to change the quamtum size according to weight of process. 
                     if (weight[i] > 1)
                         quantum *= weight[i];
                     Console.WriteLine("quantum size=" + quantum + " for process p" + i);
                     if (rem_bt[i] > 0)
                     {
-
                         // There is a pending process 
                         done = false;
 
