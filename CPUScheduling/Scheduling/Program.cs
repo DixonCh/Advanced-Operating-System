@@ -23,7 +23,7 @@ namespace CPUSchedulingAOS
             n = Convert.ToInt32(Console.ReadLine());
             for (i = 1; i <= n; i++)
             {
-                Console.WriteLine("Enter the brust time of Process P" + i + "=");
+                Console.WriteLine("Enter the brust time of Process P:" + i + "=");
                 Bu[i] = Convert.ToInt32(Console.ReadLine());
             }
         }
@@ -37,7 +37,7 @@ namespace CPUSchedulingAOS
             {
                 B[i] = Bu[i];
                 at += B[i];
-                Console.WriteLine("\nBurst time for process p" + i + "=" + B[i]);
+                Console.WriteLine("\n Burst time for process P:" + i + "=" + B[i]);
                 // Console.WriteLine(B[i]);
             }
             Wt[1] = 0;
@@ -54,7 +54,7 @@ namespace CPUSchedulingAOS
             tat = Twt + at;
             atat = tat / n;
             Awt = Twt / n;
-            Console.WriteLine("Total Weighting Time =" + Twt);
+            Console.WriteLine("Total Weighting Time=" + Twt);
             Console.WriteLine("Average Weighting Time=" + Awt);
             Console.WriteLine("Total Turn Around Time=" + tat);
             Console.WriteLine("Average Turn Around Time=" + atat);
